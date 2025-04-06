@@ -10,24 +10,23 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-      <!-- form -->
-      <form class="grocery-form">
-        <p id="alert"></p>
-        <h3>grocery bud</h3>
-        <div class="form-control">
-          <input type="text" id="grocery" placeholder="e.g. eggs" />
-          <input type="text" id="price" placeholder="e.g. $5" />
-          <button type="submit" class="submit-btn" id="addItem">submit</button>
-        </div>
+    <div>
 
-        <!-- list -->
-        <div class="grocery-container">
-          <div class="grocery-list" id="groceryAppend">
-          </div>
-          <button class="clear-btn" id="clearBtn">clear items</button>
-        </div>
+      <h4>Grocery Shop</h4>
+
+      <form>
+          <input type="text" id="itemName" placeholder="Enter product name..." class="input">
+          <button type="submit">Add Item</button>
       </form>
-    <script src="oops.js"></script>
+  </div>
+  <!-- Added Grocery list section -->
+  <section>
+      <h4>Added Items</h4>
+
+      <ul id="productsListItem"></ul>
+
+  </section>
+    <!-- <script src="script.js"></script> -->
     <script src="script.js"></script>
   </body>
 </html>
